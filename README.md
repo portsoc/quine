@@ -33,7 +33,7 @@ We seek answers to the following questions:
 1. What is the shortest _web-quine_?
 2. What is the shortest _**valid** web-quine_?
 
-### Rules:
+### Rules
 1. The page should be testable thus:
   1. Copy the quine output and save it to a file.
   2. Compare the output file with the source file: it should be a byte-for-byte replica of the source.
@@ -47,5 +47,5 @@ We seek answers to the following questions:
 ```zsh
 git clone https://github.com/portsoc/quine.git
 ```
-2. Edit quine/index.html until its output is the same as its source.
+2. Edit `quine/index.html` until its output is the same as its source.
 3. …then improve it.
