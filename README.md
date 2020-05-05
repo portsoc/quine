@@ -43,9 +43,16 @@ We seek answers to the following questions:
 
 ### Steps
 
-1. clone this repo using git:
+
+1. Fork this repo in Github.
+2. Clone it using git:
 ```zsh
-git clone https://github.com/portsoc/quine.git
+git clone https://github.com/<your_github_id>/quine.git
 ```
 2. Edit `quine/index.html` until its output is the same as its source.
 3. …then improve it.
+4. Share:
+  * Store your solutions in the `solutions` folder (we suggest your surname and the character length of the file in characters, similar to what we've done in the examples folder).
+  * Push your repo back up to Github.
+  * Send us a _Pull request_ through Github.
+  * We will then incorporate your solutions into our repository.
