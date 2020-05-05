@@ -6,7 +6,7 @@ Willard van Orman Quine was a 20th century American Philosopher who influenced D
 
  * A computer program whose purpose is to output its own source code.
 
-For example, here is a purposefully simple _quine_ for nodejs.
+For example, here is a purposefully simple _quine_ for Node.js.
 
 
 ```javascript
@@ -44,7 +44,7 @@ We seek answers to the following questions:
 ### Steps
 
 #### Edit
-1. Login to Github (you will need to register if you ave not already).
+1. Login to Github (you will need to register if you have not already).
 1. **Fork** this repo (it's in the top right corner of [the repo page](https://github.com/portsoc/quine.git)).
 2. Clone your fork of this repo using git:
 ```zsh
@@ -56,6 +56,6 @@ git clone https://github.com/<your_github_id>/quine.git
 
 #### Share
 1. Store your solutions in the `solutions` folder (we suggest your surname and the character length of the file in characters, similar to what we've done in the examples folder).
-2. Commit your changes and push your repo back up to Github (regularly - release early, release often).
+2. Commit your changes and push your repo back up to Github (regularly – release early, release often).
 3. Send us a _Pull request_ through Github.
 4. We will then incorporate your solutions into our repository.
