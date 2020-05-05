@@ -35,24 +35,27 @@ We seek answers to the following questions:
 
 ### Rules
 1. The page should be testable thus:
-  1. Copy the quine output and save it to a file.
-  2. Compare the output file with the source file: it should be a byte-for-byte replica of the source.
+   1. Copy the quine output and save it to a file.
+   2. Compare the output file with the source file: it should be a byte-for-byte replica of the source.
 2. You may use HTML, CSS and JS as necessary.
 3. All code must be part of a single self-replicating HTML file.
 4. Check pages for validity using the [W3C's online validation service](https://validator.w3.org/#validate_by_input).  Warnings are permissible, but the document must contain no errors.
 
 ### Steps
 
-
-1. Fork this repo in Github.
-2. Clone it using git:
+#### Edit
+1. Login to Github (you will need to register if you ave not already).
+1. **Fork** this repo (it's in the top right corner of [the repo page](https://github.com/portsoc/quine.git)).
+2. Clone your fork of this repo using git:
 ```zsh
 git clone https://github.com/<your_github_id>/quine.git
 ```
-2. Edit `quine/index.html` until its output is the same as its source.
-3. …then improve it.
-4. Share:
-  * Store your solutions in the `solutions` folder (we suggest your surname and the character length of the file in characters, similar to what we've done in the examples folder).
-  * Push your repo back up to Github.
-  * Send us a _Pull request_ through Github.
-  * We will then incorporate your solutions into our repository.
+3. Edit `quine/index.html` until its output is the same as its source.
+4. …then improve it.
+5. …and come up with alternative (possibly better) solutions.
+
+#### Share
+1. Store your solutions in the `solutions` folder (we suggest your surname and the character length of the file in characters, similar to what we've done in the examples folder).
+2. Commit your changes and push your repo back up to Github (regularly - release early, release often).
+3. Send us a _Pull request_ through Github.
+4. We will then incorporate your solutions into our repository.
